@@ -4,8 +4,8 @@
   "description": "bootstrapproject",
   "main": "main.js",
   "scripts": {
-    "postinstall": "nvm use",
-    "start": "node main.js -f",
+    "_postinstall": "nvm use",
+    "start": "node main.js -f inputs/sample.in",
     "all": "node main.js -d",
     "multi": "node --experimental-worker main.js -f",
     "multi-all": "node --experimental-worker main.js -d",

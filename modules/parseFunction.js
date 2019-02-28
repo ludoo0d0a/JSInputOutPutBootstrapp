@@ -17,7 +17,7 @@ function parse(lineCount, line, result){
      */
 
     if (lineCount === 0){
+    }
 }
-
 
 module.exports = parse;
